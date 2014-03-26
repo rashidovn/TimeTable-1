@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  @author Suraj Patil, email: srjptl2050@gmail.com
+  
+          Copyright 2013-2014 Suraj Patil
+  
+          Licensed under the Apache License, Version 2.0 (the "License"); you
+          may not use this file except in compliance with the License. You may
+          obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+          implied. See the License for the specific language governing
+          permissions and limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/rbgrp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rbMon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mon" />
+
+                    <RadioButton
+                        android:id="@+id/rbTue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tue" />
+
+                    <RadioButton
+                        android:id="@+id/rbWed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wed" />
+
+                    <RadioButton
+                        android:id="@+id/rbThur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thur" />
+
+                    <RadioButton
+                        android:id="@+id/rbFri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fri" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtViewTime"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time" />
+
+                <TextView
+                    android:id="@+id/txtViewLecture"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lecture" />
+
+                <TextView
+                    android:id="@+id/txtViewProf"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/professor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvLect1Time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_12_to_2" />
+
+                <TextView
+                    android:id="@+id/tvLect1Name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tvLect1Prof"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvLect2Time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2_to_3" />
+
+                <TextView
+                    android:id="@+id/tvLect2Name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tvLect2Prof"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvLect3Time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_3_to_4" />
+
+                <TextView
+                    android:id="@+id/tvLect3Name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tvLect3Prof"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvLect4Time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_4_15_to_5_15" />
+
+                <TextView
+                    android:id="@+id/tvLect4Name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tvLect4Prof"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvLect5Time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_4_15_to_6_15" />
+
+                <TextView
+                    android:id="@+id/tvLect5Name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tvLect5Prof"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
